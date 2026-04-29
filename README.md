@@ -52,7 +52,7 @@ plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))  # Convert BGR to RGB for cor
 plt.title("Original Image")  
 plt.axis('off') 
 ```
-<img width="650" height="650" alt="image" src="https://github.com/user-attachments/assets/acef30bf-eab7-4ba7-aa28-771292fef28f" />
+<img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/acef30bf-eab7-4ba7-aa28-771292fef28f" />
 
 ```
 # Step 2: Image Translation
@@ -67,7 +67,7 @@ plt.imshow(cv2.cvtColor(translated_image, cv2.COLOR_BGR2RGB))  # Display the tra
 plt.title("Translated Image")  
 plt.axis('off')
 ```
-<img width="650" height="650" alt="image" src="https://github.com/user-attachments/assets/454e5b0d-90c0-454b-a269-26b72a0ec9e3" />
+<img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/454e5b0d-90c0-454b-a269-26b72a0ec9e3" />
 
 ```
 # Step 3: Image Scaling
