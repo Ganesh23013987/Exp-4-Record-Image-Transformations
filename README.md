@@ -57,13 +57,12 @@ plt.axis('off')
 ```
 # Step 2: Image Translation
 
-tx, ty = 100, 50  # Translation factors (shift by 100 pixels horizontally and 50 vertically)
-M_translation = np.float32([[1, 0, tx], [0, 1, ty]])  # Translation matrix: 
-# [1, 0, tx] - Horizontal shift by tx
-# [0, 1, ty] - Vertical shift by ty
+tx, ty = 100, 50  
+M_translation = np.float32([[1, 0, tx], [0, 1, ty]]) 
+
 translated_image = cv2.warpAffine(image, M_translation, (image.shape[1], image.shape[0]))
 
-plt.imshow(cv2.cvtColor(translated_image, cv2.COLOR_BGR2RGB))  # Display the translated image
+plt.imshow(cv2.cvtColor(translated_image, cv2.COLOR_BGR2RGB))  
 plt.title("Translated Image")  
 plt.axis('off')
 ```
