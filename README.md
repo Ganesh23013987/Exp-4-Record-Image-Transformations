@@ -80,7 +80,7 @@ plt.imshow(cv2.cvtColor(scaled_image, cv2.COLOR_BGR2RGB))  # Display the scaled 
 plt.title("Scaled Image")  # Set title
 plt.axis('off')
 ```
-<img width="650" height="650" alt="image" src="https://github.com/user-attachments/assets/b609ab89-e613-4614-befc-ae70a7abc021" />
+<img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/b609ab89-e613-4614-befc-ae70a7abc021" />
 
 ```
 # Step 4: Image Shearing
@@ -92,7 +92,7 @@ plt.imshow(cv2.cvtColor(sheared_image, cv2.COLOR_BGR2RGB))  # Display the sheare
 plt.title("Sheared Image")  # Set title
 plt.axis('off')
 ```
-<img width="650" height="650" alt="image" src="https://github.com/user-attachments/assets/1778a004-5689-475d-84f2-4bd6d98f631e" />
+<img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/1778a004-5689-475d-84f2-4bd6d98f631e" />
 
 ```
 # Step 5: Image Reflection
@@ -103,7 +103,7 @@ plt.imshow(cv2.cvtColor(reflected_image, cv2.COLOR_BGR2RGB))  # Display the refl
 plt.title("Reflected Image")  # Set title
 plt.axis('off')
 ```
-<img width="650" height="650" alt="image" src="https://github.com/user-attachments/assets/194b2260-4dde-4300-a32a-be59506b7f50" />
+<img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/194b2260-4dde-4300-a32a-be59506b7f50" />
 
 ```
 # Step 6: Image Rotation
@@ -118,7 +118,7 @@ plt.imshow(cv2.cvtColor(rotated_image, cv2.COLOR_BGR2RGB))
 plt.title("Rotated Image")  
 plt.axis('off')
 ```
-<img width="650" height="650" alt="image" src="https://github.com/user-attachments/assets/10dcd1b7-5045-4f66-9539-faaa4ea40cce" />
+<img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/10dcd1b7-5045-4f66-9539-faaa4ea40cce" />
 
 ```
 # Step 7: Image Cropping
@@ -129,7 +129,7 @@ plt.imshow(cv2.cvtColor(cropped_image, cv2.COLOR_BGR2RGB))
 plt.title("Cropped Image")  
 plt.axis('off')
 ```
-<img width="650" height="650" alt="image" src="https://github.com/user-attachments/assets/fca0dd9d-5f42-4764-9cf6-801a18aa775c" />
+<img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/fca0dd9d-5f42-4764-9cf6-801a18aa775c" />
 
 ## Result
 Thus, the given experiment on image transformations has been successfully executed using the OpenCV library in Python.
